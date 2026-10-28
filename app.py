@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Bill Calculation Implementation."
+    return "Bill Calculation Implementation.  Discount Calculation added."
 
 @app.route("/health")
 def health():

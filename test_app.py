@@ -4,7 +4,7 @@ def test_home_page():
     client = app.test_client()
     response = client.get("/")
     assert response.status_code == 200
-    assert b"Bill Calculation Implementation." in response.data
+    assert b"Bill Calculation Implementation.  Discount Calculation added." in response.data
 
 def test_health_endpoint():
     client = app.test_client()

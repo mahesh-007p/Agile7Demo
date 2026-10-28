@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: agile7stage
-          image: YOUR_DOCKERHUB_USERNAME/agile7stage:REPLACE_WITH_COMMIT_SHA
+          image: mahesh2024p/agile7stage:3a76afae0f4f91628bfa75b04b0cf1973b87b777
           ports:
             - containerPort: 5000
           readinessProbe:
@@ -23,3 +23,4 @@ spec:
               port: 5000
             initialDelaySeconds: 5
             periodSeconds: 5
+
